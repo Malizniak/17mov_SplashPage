@@ -7,8 +7,8 @@ const nextConfig: NextConfig = {
     images: {
         unoptimized: true,
     },
-    basePath: isGithubPages ? "/7mov_SplashPage" : "",
-    assetPrefix: isGithubPages ? "/7mov_SplashPage" : "",
+    basePath: isGithubPages ? "/17mov_SplashPage" : "",
+    assetPrefix: isGithubPages ? "/17mov_SplashPage" : "",
 };
 
 export default nextConfig;
