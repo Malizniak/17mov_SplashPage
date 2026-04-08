@@ -7,6 +7,7 @@ const sora = Sora({
     variable: "--font-sora",
     subsets: ["latin"],
 });
+const isGithubPages = process.env.IS_GITHUB_PAGES === 'true';
 
 export const metadata: Metadata = {
     title: {
@@ -48,7 +49,7 @@ export const metadata: Metadata = {
         },
     },
     verification: {
-        google: 'Pm6XG5CB2ihhkyxPqPydfLLfXtckFPSTb2j7ZoQlVCA',
+        google: isGithubPages ? 'fEMTKztj4EjfpDv8krSPuJk6qTc5MOuvisnu4J98SVU' : "Pm6XG5CB2ihhkyxPqPydfLLfXtckFPSTb2j7ZoQlVCA",
     },
 };
 
